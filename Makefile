@@ -11,3 +11,12 @@ format:
 
 lint:
 	poetry run ruff check .
+
+build:
+	poetry build
+
+publish:
+	poetry publish
+
+package-install:
+	pip install dist/*.whl

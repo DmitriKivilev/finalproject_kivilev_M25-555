@@ -5,7 +5,7 @@ from typing import Any, Dict, List, Optional
 from datetime import datetime
 
 from .settings import settings
-from ..core.models import User, Wallet, Portfolio
+from ..core.models import User, Portfolio
 
 
 class DatabaseManager:
@@ -35,7 +35,7 @@ class DatabaseManager:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     return json.load(f)
                     
-            except json.JSONDecodeError as e:
+            except json.JSONDecodeError:
                 backup_path = file_path.with_suffix('.json.bak')
                 if file_path.exists():
                     file_path.rename(backup_path)
@@ -52,7 +52,7 @@ class DatabaseManager:
                 
                 temp_path.replace(file_path)
                 
-            except Exception as e:
+            except Exception:
                 if temp_path.exists():
                     temp_path.unlink()
                 raise

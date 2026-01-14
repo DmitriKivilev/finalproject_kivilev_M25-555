@@ -1,13 +1,10 @@
-import hashlib
-import secrets
 from datetime import datetime
-from typing import Optional, Dict, Any, Tuple
+from typing import Optional, Dict, Any
 from dataclasses import dataclass
 
-from .models import User, Wallet, Portfolio
+from .models import User, Portfolio
 from .exceptions import (
-    ValutatradeError, AuthenticationError, UserNotFoundError,
-    InsufficientFundsError, CurrencyNotFoundError, ValidationError
+    AuthenticationError, InsufficientFundsError, CurrencyNotFoundError, ValidationError
 )
 from ..infra.database import db
 from ..infra.settings import settings

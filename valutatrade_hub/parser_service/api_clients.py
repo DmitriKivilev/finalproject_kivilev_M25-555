@@ -3,6 +3,7 @@ from typing import Dict, Any
 from datetime import datetime
 from ..core.exceptions import ApiRequestError
 from .config import config
+import json
 
 
 class BaseApiClient:
@@ -41,7 +42,7 @@ class BaseApiClient:
             raise ApiRequestError(f"Ошибка запроса: {str(e)}")
         except json.JSONDecodeError as e:
             print(f"DEBUG: JSON decode error: {str(e)}")
-            raise ApiRequestError(f"Ошибка парсинга JSON")
+            raise ApiRequestError("Ошибка парсинга JSON")
 
 class CoinGeckoClient(BaseApiClient):
     def fetch_rates(self) -> Dict[str, Any]:
@@ -74,7 +75,7 @@ class CoinGeckoClient(BaseApiClient):
                 "timestamp": timestamp,
                 "source": "coingecko"
             }
-        except ApiRequestError as e:
+        except ApiRequestError:
             raise
         except Exception as e:
             raise ApiRequestError(f"CoinGecko: {str(e)}")

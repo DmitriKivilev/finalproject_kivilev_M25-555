@@ -1,11 +1,9 @@
 import argparse
 import sys
-from typing import Optional
 
 from valutatrade_hub.core.usecases import use_cases
 from valutatrade_hub.core.exceptions import (
-    ValutatradeError, AuthenticationError, ValidationError,
-    InsufficientFundsError, CurrencyNotFoundError
+    ValutatradeError, AuthenticationError, ValidationError
 )
 
 

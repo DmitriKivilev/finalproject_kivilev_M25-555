@@ -1,9 +1,7 @@
-from typing import List, Dict, Any
-from datetime import datetime
+from typing import Dict, Any
 from ..logging_config import logger
 from .api_clients import CoinGeckoClient, ExchangeRateApiClient
 from .storage import RatesStorage
-from .config import config
 
 
 class RatesUpdater:
