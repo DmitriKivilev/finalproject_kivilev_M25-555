@@ -83,3 +83,25 @@
 2026-01-14 19:36:56 - valutatrade - INFO - Completed sell_currency in 0.002s
 2026-01-14 19:37:09 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
 2026-01-14 19:37:09 - valutatrade - INFO - Completed get_portfolio_info in 0.001s
+2026-01-14 19:46:02 - valutatrade - INFO - Starting register_user with args=('vita', '1234'), kwargs={}
+2026-01-14 19:46:02 - valutatrade - INFO - Completed register_user in 0.004s
+2026-01-14 19:46:34 - valutatrade - INFO - Starting login with args=('vita', '1234'), kwargs={}
+2026-01-14 19:46:34 - valutatrade - INFO - Completed login in 0.001s
+2026-01-14 19:50:28 - valutatrade - INFO - Starting register_user with args=('demo', '1234'), kwargs={}
+2026-01-14 19:50:28 - valutatrade - INFO - Completed register_user in 0.004s
+2026-01-14 19:50:43 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:50:43 - valutatrade - ERROR - Error in get_portfolio_info after 0.000s: AuthenticationError: Сначала выполните вход в систему
+2026-01-14 19:51:03 - valutatrade - INFO - Starting login with args=('demo', '1234'), kwargs={}
+2026-01-14 19:51:03 - valutatrade - INFO - Completed login in 0.001s
+2026-01-14 19:51:19 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:51:19 - valutatrade - INFO - Completed get_portfolio_info in 0.001s
+2026-01-14 19:51:58 - valutatrade - INFO - Starting buy_currency with args=('BTC', 0.0001), kwargs={}
+2026-01-14 19:51:58 - valutatrade - INFO - Completed buy_currency in 0.002s
+2026-01-14 19:52:07 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:52:07 - valutatrade - INFO - Completed get_portfolio_info in 0.001s
+2026-01-14 19:52:40 - valutatrade - INFO - Starting sell_currency with args=('BTC', 0.0001), kwargs={}
+2026-01-14 19:52:40 - valutatrade - INFO - Completed sell_currency in 0.002s
+2026-01-14 19:52:59 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:52:59 - valutatrade - INFO - Completed get_portfolio_info in 0.001s
+2026-01-14 19:54:21 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:54:21 - valutatrade - ERROR - Error in get_portfolio_info after 0.000s: AuthenticationError: Сначала выполните вход в систему

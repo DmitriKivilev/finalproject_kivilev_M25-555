@@ -54,5 +54,19 @@
     "hashed_password": "399b2838df67fff5c39a90c75ed8c795b6d2df3d95b39851ae971d5c2746a85b",
     "salt": "c568be37be65fdda",
     "registration_date": "2026-01-14T19:32:43.954116"
+  },
+  {
+    "user_id": 9,
+    "username": "vita",
+    "hashed_password": "eece79138e6372facc80f414f5e6dae9efada4e709d5464a8a2bf664393e4775",
+    "salt": "f3ed1b33f1d7cc0d",
+    "registration_date": "2026-01-14T19:46:02.481812"
+  },
+  {
+    "user_id": 10,
+    "username": "demo",
+    "hashed_password": "bcb3104ec0f1850e559833660678a7e13fe2c5317d90d2d1ebb77aaf1df16bdf",
+    "salt": "cd790547872e4d7d",
+    "registration_date": "2026-01-14T19:50:28.612322"
   }
 ]
