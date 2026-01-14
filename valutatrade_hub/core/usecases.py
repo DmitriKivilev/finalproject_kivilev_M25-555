@@ -81,30 +81,59 @@ class UseCases:
     
     @log_action(verbose=True)
     def register_user(self, username: str, password: str) -> User:
+        """Регистрирует нового пользователя с начальным балансом."""
         if not username or not username.strip():
             raise ValidationError("username", "Имя пользователя не может быть пустым")
         
         if len(password) < settings.password_min_length:
             raise ValidationError(
-                "password", 
+                "password",
                 f"Пароль должен быть не короче {settings.password_min_length} символов"
             )
-        
+                    
         if db.username_exists(username):
             raise ValidationError("username", f"Имя пользователя '{username}' уже занято")
-        
+                    
         user_id = db.get_next_user_id()
-        
+                    
         user = User(
             user_id=user_id,
             username=username,
             password=password
         )
-        
+                    
         db.save_user(user)
-        
+    
+        # СОЗДАЕМ ПОРТФЕЛЬ С НАЧАЛЬНЫМ БАЛАНСОМ
         portfolio = Portfolio(user_id=user_id)
+        
+        # ДОБАВЛЯЕМ НАЧАЛЬНЫЙ БАЛАНС
+        initial_balances = {
+            "USD": 10000.0,   # 10,000 долларов
+            "RUB": 500000.0,  # 500,000 рублей
+        }
+        
+        # Используем метод add_currency для создания кошельков с балансом
+        for currency_code, balance in initial_balances.items():
+            portfolio.add_currency(currency_code, balance)
+        
+        # Сохраняем портфель в базе данных
         db.save_portfolio(portfolio)
+        
+        # Выводим красивую информацию
+        print("\n" + "="*50)
+        print(f" РЕГИСТРАЦИЯ УСПЕШНА!")
+        print("="*50)
+        print(f" Пользователь: {username}")
+        print(f" ID: {user_id}")
+        print("="*50)
+        print(" НАЧАЛЬНЫЙ БАЛАНС:")
+        for currency, amount in initial_balances.items():
+            print(f"   {currency}: {amount:,.2f}")
+        print("="*50)
+        print("Для входа используйте команду:")
+        print(f"   login --username {username} --password [ваш пароль]")
+        print("="*50 + "\n")
         
         return user
     

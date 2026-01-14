@@ -19,3 +19,67 @@
 2026-01-14 18:07:26 - valutatrade - INFO - Starting rates update
 2026-01-14 18:07:26 - valutatrade - INFO - Got rates from CoinGeckoClient
 2026-01-14 18:07:26 - valutatrade - INFO - Got rates from ExchangeRateApiClient
+2026-01-14 18:19:22 - valutatrade - INFO - Starting register_user with args=('testfinal', 'testpass123'), kwargs={}
+2026-01-14 18:19:22 - valutatrade - INFO - Completed register_user in 0.001s
+2026-01-14 18:19:22 - valutatrade - INFO - Starting login with args=('testfinal', 'testpass123'), kwargs={}
+2026-01-14 18:19:22 - valutatrade - INFO - Completed login in 0.000s
+2026-01-14 18:21:40 - valutatrade - INFO - Starting register_user with args=('finalcheck', 'final123'), kwargs={}
+2026-01-14 18:21:40 - valutatrade - INFO - Completed register_user in 0.001s
+2026-01-14 18:21:40 - valutatrade - INFO - Starting login with args=('finalcheck', 'final123'), kwargs={}
+2026-01-14 18:21:40 - valutatrade - INFO - Completed login in 0.000s
+2026-01-14 18:21:40 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 18:21:40 - valutatrade - INFO - Completed get_portfolio_info in 0.000s
+2026-01-14 18:56:46 - valutatrade - INFO - Starting register_user with args=('dima', '123'), kwargs={}
+2026-01-14 18:56:46 - valutatrade - ERROR - Error in register_user after 0.001s: ValidationError: Ошибка валидации поля 'password': Пароль должен быть не короче 4 символов
+2026-01-14 18:57:33 - valutatrade - INFO - Starting register_user with args=('dima', '1234'), kwargs={}
+2026-01-14 18:57:33 - valutatrade - INFO - Completed register_user in 0.004s
+2026-01-14 18:58:06 - valutatrade - INFO - Starting login with args=('dima', '1234'), kwargs={}
+2026-01-14 18:58:06 - valutatrade - INFO - Completed login in 0.001s
+2026-01-14 18:58:23 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 18:58:23 - valutatrade - INFO - Completed get_portfolio_info in 0.001s
+2026-01-14 18:58:42 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 18:58:42 - valutatrade - INFO - Completed get_portfolio_info in 0.001s
+2026-01-14 19:05:24 - valutatrade - INFO - Starting login with args=('dima', '1234'), kwargs={}
+2026-01-14 19:05:24 - valutatrade - INFO - Completed login in 0.003s
+2026-01-14 19:05:57 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:05:57 - valutatrade - INFO - Completed get_portfolio_info in 0.001s
+2026-01-14 19:07:50 - valutatrade - INFO - Starting buy_currency with args=('BTC', 0.001), kwargs={}
+2026-01-14 19:07:50 - valutatrade - ERROR - Error in buy_currency after 0.002s: InsufficientFundsError: Недостаточно средств: доступно 0.0 USD, требуется 59.33721 USD
+2026-01-14 19:08:52 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:08:52 - valutatrade - INFO - Completed get_portfolio_info in 0.002s
+2026-01-14 19:09:48 - valutatrade - INFO - Starting buy_currency with args=('EUR', 50.0), kwargs={}
+2026-01-14 19:09:48 - valutatrade - ERROR - Error in buy_currency after 0.002s: InsufficientFundsError: Недостаточно средств: доступно 0.0 USD, требуется 53.93 USD
+2026-01-14 19:10:45 - valutatrade - INFO - Starting register_user with args=('dima', '1234'), kwargs={}
+2026-01-14 19:10:45 - valutatrade - ERROR - Error in register_user after 0.002s: ValidationError: Ошибка валидации поля 'username': Имя пользователя 'dima' уже занято
+2026-01-14 19:11:11 - valutatrade - INFO - Starting register_user with args=('lika', '1234'), kwargs={}
+2026-01-14 19:11:11 - valutatrade - INFO - Completed register_user in 0.004s
+2026-01-14 19:11:36 - valutatrade - INFO - Starting login with args=('lika', '1234'), kwargs={}
+2026-01-14 19:11:36 - valutatrade - INFO - Completed login in 0.002s
+2026-01-14 19:12:22 - valutatrade - INFO - Starting buy_currency with args=('EUR', 100.0), kwargs={}
+2026-01-14 19:12:22 - valutatrade - ERROR - Error in buy_currency after 0.002s: InsufficientFundsError: Недостаточно средств: доступно 0.0 USD, требуется 107.86 USD
+2026-01-14 19:24:15 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:24:15 - valutatrade - INFO - Completed get_portfolio_info in 0.002s
+2026-01-14 19:24:55 - valutatrade - INFO - Starting register_user with args=('name', '1234'), kwargs={}
+2026-01-14 19:24:55 - valutatrade - INFO - Completed register_user in 0.004s
+2026-01-14 19:25:24 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:25:24 - valutatrade - ERROR - Error in get_portfolio_info after 0.000s: AuthenticationError: Сначала выполните вход в систему
+2026-01-14 19:26:50 - valutatrade - INFO - Starting login with args=('name', '1234'), kwargs={}
+2026-01-14 19:26:50 - valutatrade - INFO - Completed login in 0.002s
+2026-01-14 19:27:09 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:27:09 - valutatrade - INFO - Completed get_portfolio_info in 0.001s
+2026-01-14 19:32:16 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:32:16 - valutatrade - INFO - Completed get_portfolio_info in 0.002s
+2026-01-14 19:32:43 - valutatrade - INFO - Starting register_user with args=('name1', '1234'), kwargs={}
+2026-01-14 19:32:43 - valutatrade - INFO - Completed register_user in 0.004s
+2026-01-14 19:33:58 - valutatrade - INFO - Starting login with args=('name1', '1234'), kwargs={}
+2026-01-14 19:33:58 - valutatrade - INFO - Completed login in 0.001s
+2026-01-14 19:34:13 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:34:13 - valutatrade - INFO - Completed get_portfolio_info in 0.001s
+2026-01-14 19:35:08 - valutatrade - INFO - Starting buy_currency with args=('BTC', 0.0001), kwargs={}
+2026-01-14 19:35:08 - valutatrade - INFO - Completed buy_currency in 0.002s
+2026-01-14 19:35:35 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:35:35 - valutatrade - INFO - Completed get_portfolio_info in 0.001s
+2026-01-14 19:36:56 - valutatrade - INFO - Starting sell_currency with args=('BTC', 0.0001), kwargs={}
+2026-01-14 19:36:56 - valutatrade - INFO - Completed sell_currency in 0.002s
+2026-01-14 19:37:09 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 19:37:09 - valutatrade - INFO - Completed get_portfolio_info in 0.001s

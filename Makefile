@@ -1,9 +1,12 @@
-.PHONY: install run format lint test
+.PHONY: install run project format lint test build publish package-install
 
 install:
 	poetry install
 
 run:
+	poetry run python main.py
+
+project:
 	poetry run python main.py
 
 format:
