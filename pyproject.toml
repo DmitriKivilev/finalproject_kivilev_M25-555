@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "finalproject-kivilev"
+version = "0.1.0"
+description = "Консольный валютный кошелек"
+authors = ["Dmitry Kivilev <dimon_95.08@mail.ru>"]
+readme = "README.md"
+packages = [{include = "valutatrade_hub"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prettytable = "^3.10.0"
+requests = "^2.32.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.11.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

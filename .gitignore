@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальные окружения и зависимости
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+poetry.lock
+
+# Сборка и дистрибуция
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Тесты и инструменты
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
