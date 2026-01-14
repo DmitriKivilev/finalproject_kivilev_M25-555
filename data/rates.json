@@ -1,5 +1,2338 @@
 {
-  "last_refresh": "2025-01-14T12:00:00",
-  "pairs": {},
-  "source": "system"
+  "last_refresh": "2026-01-14T18:07:26.446746",
+  "pairs": {
+    "BTC_USD": {
+      "rate": 96334,
+      "updated_at": "2026-01-14T18:07:26.308304",
+      "source": "coingecko"
+    },
+    "ETH_USD": {
+      "rate": 3333.44,
+      "updated_at": "2026-01-14T18:07:26.308304",
+      "source": "coingecko"
+    },
+    "SOL_USD": {
+      "rate": 146.47,
+      "updated_at": "2026-01-14T18:07:26.308304",
+      "source": "coingecko"
+    },
+    "USD_USD": {
+      "rate": 1.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "USD"
+    },
+    "USD_AED": {
+      "rate": 3.6725,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "AED"
+    },
+    "AED_USD": {
+      "rate": 0.27229407760381213,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "AED",
+      "to": "USD"
+    },
+    "USD_AFN": {
+      "rate": 66.1591,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "AFN"
+    },
+    "AFN_USD": {
+      "rate": 0.015115078651311764,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "AFN",
+      "to": "USD"
+    },
+    "USD_ALL": {
+      "rate": 82.8171,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "ALL"
+    },
+    "ALL_USD": {
+      "rate": 0.012074800977092896,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "ALL",
+      "to": "USD"
+    },
+    "USD_AMD": {
+      "rate": 380.9673,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "AMD"
+    },
+    "AMD_USD": {
+      "rate": 0.0026248972024633084,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "AMD",
+      "to": "USD"
+    },
+    "USD_ANG": {
+      "rate": 1.79,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "ANG"
+    },
+    "ANG_USD": {
+      "rate": 0.5586592178770949,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "ANG",
+      "to": "USD"
+    },
+    "USD_AOA": {
+      "rate": 921.8279,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "AOA"
+    },
+    "AOA_USD": {
+      "rate": 0.0010848011868592824,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "AOA",
+      "to": "USD"
+    },
+    "USD_ARS": {
+      "rate": 1452.25,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "ARS"
+    },
+    "ARS_USD": {
+      "rate": 0.0006885866758478223,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "ARS",
+      "to": "USD"
+    },
+    "USD_AUD": {
+      "rate": 1.4953,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "AUD"
+    },
+    "AUD_USD": {
+      "rate": 0.6687621213134488,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "AUD",
+      "to": "USD"
+    },
+    "USD_AWG": {
+      "rate": 1.79,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "AWG"
+    },
+    "AWG_USD": {
+      "rate": 0.5586592178770949,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "AWG",
+      "to": "USD"
+    },
+    "USD_AZN": {
+      "rate": 1.7011,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "AZN"
+    },
+    "AZN_USD": {
+      "rate": 0.5878549174063841,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "AZN",
+      "to": "USD"
+    },
+    "USD_BAM": {
+      "rate": 1.6787,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BAM"
+    },
+    "BAM_USD": {
+      "rate": 0.595699052838506,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BAM",
+      "to": "USD"
+    },
+    "USD_BBD": {
+      "rate": 2.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BBD"
+    },
+    "BBD_USD": {
+      "rate": 0.5,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BBD",
+      "to": "USD"
+    },
+    "USD_BDT": {
+      "rate": 122.2596,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BDT"
+    },
+    "BDT_USD": {
+      "rate": 0.008179316798026495,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BDT",
+      "to": "USD"
+    },
+    "USD_BGN": {
+      "rate": 1.6228,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BGN"
+    },
+    "BGN_USD": {
+      "rate": 0.6162188809465122,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BGN",
+      "to": "USD"
+    },
+    "USD_BHD": {
+      "rate": 0.376,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BHD"
+    },
+    "BHD_USD": {
+      "rate": 2.6595744680851063,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BHD",
+      "to": "USD"
+    },
+    "USD_BIF": {
+      "rate": 2969.6342,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BIF"
+    },
+    "BIF_USD": {
+      "rate": 0.000336741811499881,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BIF",
+      "to": "USD"
+    },
+    "USD_BMD": {
+      "rate": 1.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BMD"
+    },
+    "BMD_USD": {
+      "rate": 1.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BMD",
+      "to": "USD"
+    },
+    "USD_BND": {
+      "rate": 1.2882,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BND"
+    },
+    "BND_USD": {
+      "rate": 0.7762769756249029,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BND",
+      "to": "USD"
+    },
+    "USD_BOB": {
+      "rate": 6.9441,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BOB"
+    },
+    "BOB_USD": {
+      "rate": 0.14400714275428061,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BOB",
+      "to": "USD"
+    },
+    "USD_BRL": {
+      "rate": 5.3767,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BRL"
+    },
+    "BRL_USD": {
+      "rate": 0.1859876876150799,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BRL",
+      "to": "USD"
+    },
+    "USD_BSD": {
+      "rate": 1.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BSD"
+    },
+    "BSD_USD": {
+      "rate": 1.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BSD",
+      "to": "USD"
+    },
+    "USD_BTN": {
+      "rate": 90.3025,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BTN"
+    },
+    "BTN_USD": {
+      "rate": 0.011073890534592066,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BTN",
+      "to": "USD"
+    },
+    "USD_BWP": {
+      "rate": 13.8698,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BWP"
+    },
+    "BWP_USD": {
+      "rate": 0.07209909299341015,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BWP",
+      "to": "USD"
+    },
+    "USD_BYN": {
+      "rate": 2.9238,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BYN"
+    },
+    "BYN_USD": {
+      "rate": 0.34202065804774606,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BYN",
+      "to": "USD"
+    },
+    "USD_BZD": {
+      "rate": 2.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "BZD"
+    },
+    "BZD_USD": {
+      "rate": 0.5,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "BZD",
+      "to": "USD"
+    },
+    "USD_CAD": {
+      "rate": 1.3885,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "CAD"
+    },
+    "CAD_USD": {
+      "rate": 0.7202016564638098,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "CAD",
+      "to": "USD"
+    },
+    "USD_CDF": {
+      "rate": 2230.236,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "CDF"
+    },
+    "CDF_USD": {
+      "rate": 0.0004483830410772672,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "CDF",
+      "to": "USD"
+    },
+    "USD_CHF": {
+      "rate": 0.8002,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "CHF"
+    },
+    "CHF_USD": {
+      "rate": 1.2496875781054737,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "CHF",
+      "to": "USD"
+    },
+    "USD_CLF": {
+      "rate": 0.0224,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "CLF"
+    },
+    "CLF_USD": {
+      "rate": 44.642857142857146,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "CLF",
+      "to": "USD"
+    },
+    "USD_CLP": {
+      "rate": 885.4453,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "CLP"
+    },
+    "CLP_USD": {
+      "rate": 0.0011293752420392315,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "CLP",
+      "to": "USD"
+    },
+    "USD_CNH": {
+      "rate": 6.9742,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "CNH"
+    },
+    "CNH_USD": {
+      "rate": 0.14338562128989704,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "CNH",
+      "to": "USD"
+    },
+    "USD_CNY": {
+      "rate": 6.9882,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "CNY"
+    },
+    "CNY_USD": {
+      "rate": 0.14309836581666238,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "CNY",
+      "to": "USD"
+    },
+    "USD_COP": {
+      "rate": 3725.2343,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "COP"
+    },
+    "COP_USD": {
+      "rate": 0.000268439491175092,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "COP",
+      "to": "USD"
+    },
+    "USD_CRC": {
+      "rate": 497.8872,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "CRC"
+    },
+    "CRC_USD": {
+      "rate": 0.0020084870629331303,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "CRC",
+      "to": "USD"
+    },
+    "USD_CUP": {
+      "rate": 24.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "CUP"
+    },
+    "CUP_USD": {
+      "rate": 0.041666666666666664,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "CUP",
+      "to": "USD"
+    },
+    "USD_CVE": {
+      "rate": 94.6411,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "CVE"
+    },
+    "CVE_USD": {
+      "rate": 0.010566233908946537,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "CVE",
+      "to": "USD"
+    },
+    "USD_CZK": {
+      "rate": 20.8101,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "CZK"
+    },
+    "CZK_USD": {
+      "rate": 0.04805358936285746,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "CZK",
+      "to": "USD"
+    },
+    "USD_DJF": {
+      "rate": 177.721,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "DJF"
+    },
+    "DJF_USD": {
+      "rate": 0.005626797058310498,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "DJF",
+      "to": "USD"
+    },
+    "USD_DKK": {
+      "rate": 6.4056,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "DKK"
+    },
+    "DKK_USD": {
+      "rate": 0.15611340077432248,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "DKK",
+      "to": "USD"
+    },
+    "USD_DOP": {
+      "rate": 63.7353,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "DOP"
+    },
+    "DOP_USD": {
+      "rate": 0.015689892414407713,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "DOP",
+      "to": "USD"
+    },
+    "USD_DZD": {
+      "rate": 130.0409,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "DZD"
+    },
+    "DZD_USD": {
+      "rate": 0.007689888335131486,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "DZD",
+      "to": "USD"
+    },
+    "USD_EGP": {
+      "rate": 47.1259,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "EGP"
+    },
+    "EGP_USD": {
+      "rate": 0.021219753893294346,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "EGP",
+      "to": "USD"
+    },
+    "USD_ERN": {
+      "rate": 15.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "ERN"
+    },
+    "ERN_USD": {
+      "rate": 0.06666666666666667,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "ERN",
+      "to": "USD"
+    },
+    "USD_ETB": {
+      "rate": 154.6222,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "ETB"
+    },
+    "ETB_USD": {
+      "rate": 0.006467376612155305,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "ETB",
+      "to": "USD"
+    },
+    "USD_EUR": {
+      "rate": 0.8583,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "EUR"
+    },
+    "EUR_USD": {
+      "rate": 1.165093790050099,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "EUR",
+      "to": "USD"
+    },
+    "USD_FJD": {
+      "rate": 2.2758,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "FJD"
+    },
+    "FJD_USD": {
+      "rate": 0.4394059231918447,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "FJD",
+      "to": "USD"
+    },
+    "USD_FKP": {
+      "rate": 0.744,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "FKP"
+    },
+    "FKP_USD": {
+      "rate": 1.3440860215053763,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "FKP",
+      "to": "USD"
+    },
+    "USD_FOK": {
+      "rate": 6.4054,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "FOK"
+    },
+    "FOK_USD": {
+      "rate": 0.15611827520529553,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "FOK",
+      "to": "USD"
+    },
+    "USD_GBP": {
+      "rate": 0.744,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "GBP"
+    },
+    "GBP_USD": {
+      "rate": 1.3440860215053763,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "GBP",
+      "to": "USD"
+    },
+    "USD_GEL": {
+      "rate": 2.6964,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "GEL"
+    },
+    "GEL_USD": {
+      "rate": 0.3708648568461652,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "GEL",
+      "to": "USD"
+    },
+    "USD_GGP": {
+      "rate": 0.744,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "GGP"
+    },
+    "GGP_USD": {
+      "rate": 1.3440860215053763,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "GGP",
+      "to": "USD"
+    },
+    "USD_GHS": {
+      "rate": 10.7411,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "GHS"
+    },
+    "GHS_USD": {
+      "rate": 0.0931003342301999,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "GHS",
+      "to": "USD"
+    },
+    "USD_GIP": {
+      "rate": 0.744,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "GIP"
+    },
+    "GIP_USD": {
+      "rate": 1.3440860215053763,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "GIP",
+      "to": "USD"
+    },
+    "USD_GMD": {
+      "rate": 73.9294,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "GMD"
+    },
+    "GMD_USD": {
+      "rate": 0.013526418447870536,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "GMD",
+      "to": "USD"
+    },
+    "USD_GNF": {
+      "rate": 8747.0254,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "GNF"
+    },
+    "GNF_USD": {
+      "rate": 0.00011432457941644939,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "GNF",
+      "to": "USD"
+    },
+    "USD_GTQ": {
+      "rate": 7.6758,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "GTQ"
+    },
+    "GTQ_USD": {
+      "rate": 0.13027957997863415,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "GTQ",
+      "to": "USD"
+    },
+    "USD_GYD": {
+      "rate": 209.1648,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "GYD"
+    },
+    "GYD_USD": {
+      "rate": 0.004780919160394101,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "GYD",
+      "to": "USD"
+    },
+    "USD_HKD": {
+      "rate": 7.8009,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "HKD"
+    },
+    "HKD_USD": {
+      "rate": 0.128190337012396,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "HKD",
+      "to": "USD"
+    },
+    "USD_HNL": {
+      "rate": 26.4324,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "HNL"
+    },
+    "HNL_USD": {
+      "rate": 0.03783235725851606,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "HNL",
+      "to": "USD"
+    },
+    "USD_HRK": {
+      "rate": 6.4669,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "HRK"
+    },
+    "HRK_USD": {
+      "rate": 0.1546335956950007,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "HRK",
+      "to": "USD"
+    },
+    "USD_HTG": {
+      "rate": 130.9054,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "HTG"
+    },
+    "HTG_USD": {
+      "rate": 0.007639104269189813,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "HTG",
+      "to": "USD"
+    },
+    "USD_HUF": {
+      "rate": 331.5861,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "HUF"
+    },
+    "HUF_USD": {
+      "rate": 0.003015807960587009,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "HUF",
+      "to": "USD"
+    },
+    "USD_IDR": {
+      "rate": 16879.482,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "IDR"
+    },
+    "IDR_USD": {
+      "rate": 5.9243524179237256e-05,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "IDR",
+      "to": "USD"
+    },
+    "USD_ILS": {
+      "rate": 3.1499,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "ILS"
+    },
+    "ILS_USD": {
+      "rate": 0.3174703958855837,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "ILS",
+      "to": "USD"
+    },
+    "USD_IMP": {
+      "rate": 0.744,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "IMP"
+    },
+    "IMP_USD": {
+      "rate": 1.3440860215053763,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "IMP",
+      "to": "USD"
+    },
+    "USD_INR": {
+      "rate": 90.3028,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "INR"
+    },
+    "INR_USD": {
+      "rate": 0.011073853745398814,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "INR",
+      "to": "USD"
+    },
+    "USD_IQD": {
+      "rate": 1312.3958,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "IQD"
+    },
+    "IQD_USD": {
+      "rate": 0.0007619652546891723,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "IQD",
+      "to": "USD"
+    },
+    "USD_IRR": {
+      "rate": 42002.5197,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "IRR"
+    },
+    "IRR_USD": {
+      "rate": 2.3808095493852005e-05,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "IRR",
+      "to": "USD"
+    },
+    "USD_ISK": {
+      "rate": 125.776,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "ISK"
+    },
+    "ISK_USD": {
+      "rate": 0.007950642411906883,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "ISK",
+      "to": "USD"
+    },
+    "USD_JEP": {
+      "rate": 0.744,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "JEP"
+    },
+    "JEP_USD": {
+      "rate": 1.3440860215053763,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "JEP",
+      "to": "USD"
+    },
+    "USD_JMD": {
+      "rate": 158.1896,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "JMD"
+    },
+    "JMD_USD": {
+      "rate": 0.006321528090342221,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "JMD",
+      "to": "USD"
+    },
+    "USD_JOD": {
+      "rate": 0.709,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "JOD"
+    },
+    "JOD_USD": {
+      "rate": 1.4104372355430184,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "JOD",
+      "to": "USD"
+    },
+    "USD_JPY": {
+      "rate": 158.9937,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "JPY"
+    },
+    "JPY_USD": {
+      "rate": 0.006289557384978148,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "JPY",
+      "to": "USD"
+    },
+    "USD_KES": {
+      "rate": 128.9641,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "KES"
+    },
+    "KES_USD": {
+      "rate": 0.007754095907310639,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "KES",
+      "to": "USD"
+    },
+    "USD_KGS": {
+      "rate": 87.4073,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "KGS"
+    },
+    "KGS_USD": {
+      "rate": 0.011440692024579181,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "KGS",
+      "to": "USD"
+    },
+    "USD_KHR": {
+      "rate": 4023.552,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "KHR"
+    },
+    "KHR_USD": {
+      "rate": 0.0002485366164026214,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "KHR",
+      "to": "USD"
+    },
+    "USD_KID": {
+      "rate": 1.495,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "KID"
+    },
+    "KID_USD": {
+      "rate": 0.6688963210702341,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "KID",
+      "to": "USD"
+    },
+    "USD_KMF": {
+      "rate": 422.2589,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "KMF"
+    },
+    "KMF_USD": {
+      "rate": 0.002368215329505192,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "KMF",
+      "to": "USD"
+    },
+    "USD_KRW": {
+      "rate": 1473.9655,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "KRW"
+    },
+    "KRW_USD": {
+      "rate": 0.0006784419309678551,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "KRW",
+      "to": "USD"
+    },
+    "USD_KWD": {
+      "rate": 0.3076,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "KWD"
+    },
+    "KWD_USD": {
+      "rate": 3.2509752925877766,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "KWD",
+      "to": "USD"
+    },
+    "USD_KYD": {
+      "rate": 0.8333,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "KYD"
+    },
+    "KYD_USD": {
+      "rate": 1.2000480019200768,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "KYD",
+      "to": "USD"
+    },
+    "USD_KZT": {
+      "rate": 509.656,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "KZT"
+    },
+    "KZT_USD": {
+      "rate": 0.0019621077746558462,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "KZT",
+      "to": "USD"
+    },
+    "USD_LAK": {
+      "rate": 21735.6698,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "LAK"
+    },
+    "LAK_USD": {
+      "rate": 4.600732386908086e-05,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "LAK",
+      "to": "USD"
+    },
+    "USD_LBP": {
+      "rate": 89500.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "LBP"
+    },
+    "LBP_USD": {
+      "rate": 1.11731843575419e-05,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "LBP",
+      "to": "USD"
+    },
+    "USD_LKR": {
+      "rate": 309.1499,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "LKR"
+    },
+    "LKR_USD": {
+      "rate": 0.0032346767700717352,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "LKR",
+      "to": "USD"
+    },
+    "USD_LRD": {
+      "rate": 179.8157,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "LRD"
+    },
+    "LRD_USD": {
+      "rate": 0.00556124965728799,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "LRD",
+      "to": "USD"
+    },
+    "USD_LSL": {
+      "rate": 16.4142,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "LSL"
+    },
+    "LSL_USD": {
+      "rate": 0.06092285947533233,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "LSL",
+      "to": "USD"
+    },
+    "USD_LYD": {
+      "rate": 5.4279,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "LYD"
+    },
+    "LYD_USD": {
+      "rate": 0.18423331306766888,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "LYD",
+      "to": "USD"
+    },
+    "USD_MAD": {
+      "rate": 9.2133,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MAD"
+    },
+    "MAD_USD": {
+      "rate": 0.10853874290427969,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MAD",
+      "to": "USD"
+    },
+    "USD_MDL": {
+      "rate": 16.9618,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MDL"
+    },
+    "MDL_USD": {
+      "rate": 0.05895600702755604,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MDL",
+      "to": "USD"
+    },
+    "USD_MGA": {
+      "rate": 4598.8585,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MGA"
+    },
+    "MGA_USD": {
+      "rate": 0.00021744526386276072,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MGA",
+      "to": "USD"
+    },
+    "USD_MKD": {
+      "rate": 52.5979,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MKD"
+    },
+    "MKD_USD": {
+      "rate": 0.019012165884949778,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MKD",
+      "to": "USD"
+    },
+    "USD_MMK": {
+      "rate": 2100.0055,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MMK"
+    },
+    "MMK_USD": {
+      "rate": 0.00047618922902820966,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MMK",
+      "to": "USD"
+    },
+    "USD_MNT": {
+      "rate": 3598.2093,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MNT"
+    },
+    "MNT_USD": {
+      "rate": 0.00027791601783698353,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MNT",
+      "to": "USD"
+    },
+    "USD_MOP": {
+      "rate": 8.0356,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MOP"
+    },
+    "MOP_USD": {
+      "rate": 0.12444621434615959,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MOP",
+      "to": "USD"
+    },
+    "USD_MRU": {
+      "rate": 40.0113,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MRU"
+    },
+    "MRU_USD": {
+      "rate": 0.02499293949459278,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MRU",
+      "to": "USD"
+    },
+    "USD_MUR": {
+      "rate": 46.6753,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MUR"
+    },
+    "MUR_USD": {
+      "rate": 0.021424607876114346,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MUR",
+      "to": "USD"
+    },
+    "USD_MVR": {
+      "rate": 15.4561,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MVR"
+    },
+    "MVR_USD": {
+      "rate": 0.06469937435704998,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MVR",
+      "to": "USD"
+    },
+    "USD_MWK": {
+      "rate": 1744.985,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MWK"
+    },
+    "MWK_USD": {
+      "rate": 0.0005730708286890719,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MWK",
+      "to": "USD"
+    },
+    "USD_MXN": {
+      "rate": 17.8532,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MXN"
+    },
+    "MXN_USD": {
+      "rate": 0.056012367530750784,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MXN",
+      "to": "USD"
+    },
+    "USD_MYR": {
+      "rate": 4.0578,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MYR"
+    },
+    "MYR_USD": {
+      "rate": 0.24643895707033367,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MYR",
+      "to": "USD"
+    },
+    "USD_MZN": {
+      "rate": 63.6144,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "MZN"
+    },
+    "MZN_USD": {
+      "rate": 0.01571971126034357,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "MZN",
+      "to": "USD"
+    },
+    "USD_NAD": {
+      "rate": 16.4142,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "NAD"
+    },
+    "NAD_USD": {
+      "rate": 0.06092285947533233,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "NAD",
+      "to": "USD"
+    },
+    "USD_NGN": {
+      "rate": 1421.5021,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "NGN"
+    },
+    "NGN_USD": {
+      "rate": 0.0007034811978118077,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "NGN",
+      "to": "USD"
+    },
+    "USD_NIO": {
+      "rate": 36.8464,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "NIO"
+    },
+    "NIO_USD": {
+      "rate": 0.027139693430023013,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "NIO",
+      "to": "USD"
+    },
+    "USD_NOK": {
+      "rate": 10.0869,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "NOK"
+    },
+    "NOK_USD": {
+      "rate": 0.0991384865518643,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "NOK",
+      "to": "USD"
+    },
+    "USD_NPR": {
+      "rate": 144.484,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "NPR"
+    },
+    "NPR_USD": {
+      "rate": 0.006921181584120041,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "NPR",
+      "to": "USD"
+    },
+    "USD_NZD": {
+      "rate": 1.7404,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "NZD"
+    },
+    "NZD_USD": {
+      "rate": 0.5745805561939784,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "NZD",
+      "to": "USD"
+    },
+    "USD_OMR": {
+      "rate": 0.3845,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "OMR"
+    },
+    "OMR_USD": {
+      "rate": 2.600780234070221,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "OMR",
+      "to": "USD"
+    },
+    "USD_PAB": {
+      "rate": 1.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "PAB"
+    },
+    "PAB_USD": {
+      "rate": 1.0,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "PAB",
+      "to": "USD"
+    },
+    "USD_PEN": {
+      "rate": 3.3612,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "PEN"
+    },
+    "PEN_USD": {
+      "rate": 0.29751279305010114,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "PEN",
+      "to": "USD"
+    },
+    "USD_PGK": {
+      "rate": 4.2731,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "PGK"
+    },
+    "PGK_USD": {
+      "rate": 0.23402213849430153,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "PGK",
+      "to": "USD"
+    },
+    "USD_PHP": {
+      "rate": 59.406,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "PHP"
+    },
+    "PHP_USD": {
+      "rate": 0.016833316500016834,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "PHP",
+      "to": "USD"
+    },
+    "USD_PKR": {
+      "rate": 280.2016,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "PKR"
+    },
+    "PKR_USD": {
+      "rate": 0.003568858992953645,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "PKR",
+      "to": "USD"
+    },
+    "USD_PLN": {
+      "rate": 3.615,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "PLN"
+    },
+    "PLN_USD": {
+      "rate": 0.276625172890733,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "PLN",
+      "to": "USD"
+    },
+    "USD_PYG": {
+      "rate": 6643.4329,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "PYG"
+    },
+    "PYG_USD": {
+      "rate": 0.00015052458797318476,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "PYG",
+      "to": "USD"
+    },
+    "USD_QAR": {
+      "rate": 3.64,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "QAR"
+    },
+    "QAR_USD": {
+      "rate": 0.2747252747252747,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "QAR",
+      "to": "USD"
+    },
+    "USD_RON": {
+      "rate": 4.3655,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "RON"
+    },
+    "RON_USD": {
+      "rate": 0.2290688351849731,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "RON",
+      "to": "USD"
+    },
+    "USD_RSD": {
+      "rate": 100.6773,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "RSD"
+    },
+    "RSD_USD": {
+      "rate": 0.009932725649178116,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "RSD",
+      "to": "USD"
+    },
+    "USD_RUB": {
+      "rate": 78.829,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "RUB"
+    },
+    "RUB_USD": {
+      "rate": 0.012685686739651652,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "RUB",
+      "to": "USD"
+    },
+    "USD_RWF": {
+      "rate": 1459.7565,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "RWF"
+    },
+    "RWF_USD": {
+      "rate": 0.0006850457593441098,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "RWF",
+      "to": "USD"
+    },
+    "USD_SAR": {
+      "rate": 3.75,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SAR"
+    },
+    "SAR_USD": {
+      "rate": 0.26666666666666666,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SAR",
+      "to": "USD"
+    },
+    "USD_SBD": {
+      "rate": 8.0277,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SBD"
+    },
+    "SBD_USD": {
+      "rate": 0.12456868094223751,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SBD",
+      "to": "USD"
+    },
+    "USD_SCR": {
+      "rate": 14.1554,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SCR"
+    },
+    "SCR_USD": {
+      "rate": 0.07064441838450344,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SCR",
+      "to": "USD"
+    },
+    "USD_SDG": {
+      "rate": 449.4761,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SDG"
+    },
+    "SDG_USD": {
+      "rate": 0.002224812398256548,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SDG",
+      "to": "USD"
+    },
+    "USD_SEK": {
+      "rate": 9.2125,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SEK"
+    },
+    "SEK_USD": {
+      "rate": 0.10854816824966078,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SEK",
+      "to": "USD"
+    },
+    "USD_SGD": {
+      "rate": 1.2881,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SGD"
+    },
+    "SGD_USD": {
+      "rate": 0.7763372408974458,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SGD",
+      "to": "USD"
+    },
+    "USD_SHP": {
+      "rate": 0.744,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SHP"
+    },
+    "SHP_USD": {
+      "rate": 1.3440860215053763,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SHP",
+      "to": "USD"
+    },
+    "USD_SLE": {
+      "rate": 23.8366,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SLE"
+    },
+    "SLE_USD": {
+      "rate": 0.041952291853703964,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SLE",
+      "to": "USD"
+    },
+    "USD_SLL": {
+      "rate": 23836.6113,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SLL"
+    },
+    "SLL_USD": {
+      "rate": 4.195227196577225e-05,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SLL",
+      "to": "USD"
+    },
+    "USD_SOS": {
+      "rate": 570.5181,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SOS"
+    },
+    "SOS_USD": {
+      "rate": 0.0017527927685379308,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SOS",
+      "to": "USD"
+    },
+    "USD_SRD": {
+      "rate": 38.0812,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SRD"
+    },
+    "SRD_USD": {
+      "rate": 0.02625967669086058,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SRD",
+      "to": "USD"
+    },
+    "USD_SSP": {
+      "rate": 4720.6309,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SSP"
+    },
+    "SSP_USD": {
+      "rate": 0.00021183609165461337,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SSP",
+      "to": "USD"
+    },
+    "USD_STN": {
+      "rate": 21.0285,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "STN"
+    },
+    "STN_USD": {
+      "rate": 0.047554509356349715,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "STN",
+      "to": "USD"
+    },
+    "USD_SYP": {
+      "rate": 112.4635,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SYP"
+    },
+    "SYP_USD": {
+      "rate": 0.008891773775491604,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SYP",
+      "to": "USD"
+    },
+    "USD_SZL": {
+      "rate": 16.4142,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "SZL"
+    },
+    "SZL_USD": {
+      "rate": 0.06092285947533233,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "SZL",
+      "to": "USD"
+    },
+    "USD_THB": {
+      "rate": 31.47,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "THB"
+    },
+    "THB_USD": {
+      "rate": 0.03177629488401652,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "THB",
+      "to": "USD"
+    },
+    "USD_TJS": {
+      "rate": 9.2903,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "TJS"
+    },
+    "TJS_USD": {
+      "rate": 0.10763915051182416,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "TJS",
+      "to": "USD"
+    },
+    "USD_TMT": {
+      "rate": 3.5,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "TMT"
+    },
+    "TMT_USD": {
+      "rate": 0.2857142857142857,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "TMT",
+      "to": "USD"
+    },
+    "USD_TND": {
+      "rate": 2.8974,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "TND"
+    },
+    "TND_USD": {
+      "rate": 0.34513701939670044,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "TND",
+      "to": "USD"
+    },
+    "USD_TOP": {
+      "rate": 2.3942,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "TOP"
+    },
+    "TOP_USD": {
+      "rate": 0.4176760504552669,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "TOP",
+      "to": "USD"
+    },
+    "USD_TRY": {
+      "rate": 43.1543,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "TRY"
+    },
+    "TRY_USD": {
+      "rate": 0.02317266182049066,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "TRY",
+      "to": "USD"
+    },
+    "USD_TTD": {
+      "rate": 6.7695,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "TTD"
+    },
+    "TTD_USD": {
+      "rate": 0.14772139744441984,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "TTD",
+      "to": "USD"
+    },
+    "USD_TVD": {
+      "rate": 1.495,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "TVD"
+    },
+    "TVD_USD": {
+      "rate": 0.6688963210702341,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "TVD",
+      "to": "USD"
+    },
+    "USD_TWD": {
+      "rate": 31.66,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "TWD"
+    },
+    "TWD_USD": {
+      "rate": 0.03158559696778269,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "TWD",
+      "to": "USD"
+    },
+    "USD_TZS": {
+      "rate": 2474.5579,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "TZS"
+    },
+    "TZS_USD": {
+      "rate": 0.0004041125891618863,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "TZS",
+      "to": "USD"
+    },
+    "USD_UAH": {
+      "rate": 43.2514,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "UAH"
+    },
+    "UAH_USD": {
+      "rate": 0.023120638869493244,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "UAH",
+      "to": "USD"
+    },
+    "USD_UGX": {
+      "rate": 3568.2761,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "UGX"
+    },
+    "UGX_USD": {
+      "rate": 0.00028024737211338553,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "UGX",
+      "to": "USD"
+    },
+    "USD_UYU": {
+      "rate": 39.0014,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "UYU"
+    },
+    "UYU_USD": {
+      "rate": 0.025640105226991852,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "UYU",
+      "to": "USD"
+    },
+    "USD_UZS": {
+      "rate": 12103.6649,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "UZS"
+    },
+    "UZS_USD": {
+      "rate": 8.261960391847927e-05,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "UZS",
+      "to": "USD"
+    },
+    "USD_VES": {
+      "rate": 336.4596,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "VES"
+    },
+    "VES_USD": {
+      "rate": 0.002972125033733619,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "VES",
+      "to": "USD"
+    },
+    "USD_VND": {
+      "rate": 26225.8042,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "VND"
+    },
+    "VND_USD": {
+      "rate": 3.8130384577491816e-05,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "VND",
+      "to": "USD"
+    },
+    "USD_VUV": {
+      "rate": 120.8254,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "VUV"
+    },
+    "VUV_USD": {
+      "rate": 0.008276405457792815,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "VUV",
+      "to": "USD"
+    },
+    "USD_WST": {
+      "rate": 2.7502,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "WST"
+    },
+    "WST_USD": {
+      "rate": 0.3636099192785979,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "WST",
+      "to": "USD"
+    },
+    "USD_XAF": {
+      "rate": 563.0119,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "XAF"
+    },
+    "XAF_USD": {
+      "rate": 0.0017761613919705782,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "XAF",
+      "to": "USD"
+    },
+    "USD_XCD": {
+      "rate": 2.7,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "XCD"
+    },
+    "XCD_USD": {
+      "rate": 0.37037037037037035,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "XCD",
+      "to": "USD"
+    },
+    "USD_XCG": {
+      "rate": 1.79,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "XCG"
+    },
+    "XCG_USD": {
+      "rate": 0.5586592178770949,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "XCG",
+      "to": "USD"
+    },
+    "USD_XDR": {
+      "rate": 0.7299,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "XDR"
+    },
+    "XDR_USD": {
+      "rate": 1.3700506918755995,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "XDR",
+      "to": "USD"
+    },
+    "USD_XOF": {
+      "rate": 563.0119,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "XOF"
+    },
+    "XOF_USD": {
+      "rate": 0.0017761613919705782,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "XOF",
+      "to": "USD"
+    },
+    "USD_XPF": {
+      "rate": 102.4234,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "XPF"
+    },
+    "XPF_USD": {
+      "rate": 0.009763393911938091,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "XPF",
+      "to": "USD"
+    },
+    "USD_YER": {
+      "rate": 238.6225,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "YER"
+    },
+    "YER_USD": {
+      "rate": 0.004190719651332125,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "YER",
+      "to": "USD"
+    },
+    "USD_ZAR": {
+      "rate": 16.4143,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "ZAR"
+    },
+    "ZAR_USD": {
+      "rate": 0.06092248831811286,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "ZAR",
+      "to": "USD"
+    },
+    "USD_ZMW": {
+      "rate": 19.4987,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "ZMW"
+    },
+    "ZMW_USD": {
+      "rate": 0.05128547031340551,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "ZMW",
+      "to": "USD"
+    },
+    "USD_ZWG": {
+      "rate": 25.7169,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "ZWG"
+    },
+    "ZWG_USD": {
+      "rate": 0.0388849355871042,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "ZWG",
+      "to": "USD"
+    },
+    "USD_ZWL": {
+      "rate": 25.7169,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "USD",
+      "to": "ZWL"
+    },
+    "ZWL_USD": {
+      "rate": 0.0388849355871042,
+      "updated_at": "2026-01-14T18:07:26.446233",
+      "source": "exchangerate-api",
+      "from": "ZWL",
+      "to": "USD"
+    }
+  },
+  "source": "merged"
 }

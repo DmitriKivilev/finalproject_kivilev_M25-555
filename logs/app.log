@@ -16,3 +16,6 @@
 2026-01-14 17:29:07 - valutatrade - ERROR - Error in get_portfolio_info after 0.000s: AuthenticationError: Сначала выполните вход в систему
 2026-01-14 17:41:18 - valutatrade - INFO - Starting login with args=('test3', 'pass123'), kwargs={}
 2026-01-14 17:41:18 - valutatrade - INFO - Completed login in 0.000s
+2026-01-14 18:07:26 - valutatrade - INFO - Starting rates update
+2026-01-14 18:07:26 - valutatrade - INFO - Got rates from CoinGeckoClient
+2026-01-14 18:07:26 - valutatrade - INFO - Got rates from ExchangeRateApiClient

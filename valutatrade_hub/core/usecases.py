@@ -262,36 +262,39 @@ class UseCases:
         from_currency = from_currency.upper()
         to_currency = to_currency.upper()
         
-        local_rate = db.get_exchange_rate(from_currency, to_currency)
+        # Пытаемся получить курс из базы
+        rate = db.get_exchange_rate(from_currency, to_currency)
         
-        if local_rate is None or not db.is_rate_fresh():
-            rate = settings.get_default_exchange_rate(from_currency, to_currency)
-            if not rate:
-                reverse_rate = settings.get_default_exchange_rate(to_currency, from_currency)
-                if reverse_rate:
-                    rate = 1 / reverse_rate
-                else:
+        # Если курс не найден или устарел
+        if rate is None or not db.is_rate_fresh():
+            # Пытаемся получить обратный курс
+            reverse_rate = db.get_exchange_rate(to_currency, from_currency)
+            if reverse_rate and reverse_rate != 0:
+                rate = 1 / reverse_rate
+                source = "reverse_calculation"
+            else:
+                # Используем дефолтные курсы
+                rate = settings.get_default_exchange_rate(from_currency, to_currency)
+                if not rate:
                     raise CurrencyNotFoundError(f"{from_currency} или {to_currency}")
+                source = "default"
             
-            return {
-                "from": from_currency,
-                "to": to_currency,
-                "rate": rate,
-                "source": "default",
-                "updated_at": datetime.now().isoformat()
-            }
+            timestamp = datetime.now().isoformat()
         else:
+            # Берем данные из кеша
             rates = db.get_exchange_rates()
             pair_key = f"{from_currency}_{to_currency}"
-            pair_data = rates["pairs"][pair_key]
-            
-            return {
-                "from": from_currency,
-                "to": to_currency,
-                "rate": local_rate,
-                "source": pair_data.get("source", "cache"),
-                "updated_at": pair_data.get("updated_at", "unknown")
-            }
+            pair_data = rates["pairs"].get(pair_key, {})
+            source = pair_data.get("source", "cache")
+            timestamp = pair_data.get("updated_at", "unknown")
+        
+        return {
+            "from": from_currency,
+            "to": to_currency,
+            "rate": rate,
+            "source": source,
+            "updated_at": timestamp
+        }
     
     def validate_currency_code(self, currency_code: str) -> bool:
         return settings.is_currency_supported(currency_code)
