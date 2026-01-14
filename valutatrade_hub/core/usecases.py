@@ -16,7 +16,6 @@ from ..decorators import log_action
 
 @dataclass
 class Session:
-    """Класс для хранения данных сессии."""
     user_id: int
     username: str
     login_time: datetime
@@ -24,10 +23,9 @@ class Session:
 
 
 class UseCases:
-    """Основной класс бизнес-логики приложения."""
-    
     def __init__(self):
         self.current_session: Optional[Session] = None
+        self._load_session()
     
     @property
     def is_authenticated(self) -> bool:
@@ -36,9 +34,49 @@ class UseCases:
     def get_current_user_id(self) -> Optional[int]:
         return self.current_session.user_id if self.current_session else None
     
+    def _save_session(self):
+        import json
+        from pathlib import Path
+        
+        if self.current_session:
+            session_file = Path("session.json")
+            session_data = {
+                "user_id": self.current_session.user_id,
+                "username": self.current_session.username,
+                "login_time": self.current_session.login_time.isoformat(),
+                "last_activity": self.current_session.last_activity.isoformat()
+            }
+            with open(session_file, 'w', encoding='utf-8') as f:
+                json.dump(session_data, f, indent=2)
+    
+    def _load_session(self):
+        import json
+        from pathlib import Path
+        
+        session_file = Path("session.json")
+        if session_file.exists():
+            try:
+                with open(session_file, 'r', encoding='utf-8') as f:
+                    session_data = json.load(f)
+                
+                self.current_session = Session(
+                    user_id=session_data["user_id"],
+                    username=session_data["username"],
+                    login_time=datetime.fromisoformat(session_data["login_time"]),
+                    last_activity=datetime.fromisoformat(session_data["last_activity"])
+                )
+            except (json.JSONDecodeError, KeyError):
+                self.current_session = None
+                if session_file.exists():
+                    session_file.unlink()
+    
     def logout(self) -> None:
         if self.current_session:
             self.current_session = None
+        
+        import os
+        if os.path.exists("session.json"):
+            os.remove("session.json")
     
     def check_authentication(self) -> None:
         if not self.is_authenticated:
@@ -90,6 +128,7 @@ class UseCases:
             last_activity=now
         )
         
+        self._save_session()
         return self.current_session
     
     @log_action()

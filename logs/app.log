@@ -4,3 +4,15 @@
 2026-01-14 17:18:27 - valutatrade - INFO - Completed login in 0.000s
 2026-01-14 17:18:28 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
 2026-01-14 17:18:28 - valutatrade - ERROR - Error in get_portfolio_info after 0.000s: AuthenticationError: Сначала выполните вход в систему
+2026-01-14 17:23:22 - valutatrade - INFO - Starting login with args=('test1', 'pass123'), kwargs={}
+2026-01-14 17:23:22 - valutatrade - INFO - Completed login in 0.000s
+2026-01-14 17:23:22 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 17:23:22 - valutatrade - ERROR - Error in get_portfolio_info after 0.000s: AuthenticationError: Сначала выполните вход в систему
+2026-01-14 17:29:06 - valutatrade - INFO - Starting register_user with args=('test3', 'pass123'), kwargs={}
+2026-01-14 17:29:06 - valutatrade - INFO - Completed register_user in 0.002s
+2026-01-14 17:29:06 - valutatrade - INFO - Starting login with args=('test3', 'pass123'), kwargs={}
+2026-01-14 17:29:06 - valutatrade - INFO - Completed login in 0.000s
+2026-01-14 17:29:07 - valutatrade - INFO - Starting get_portfolio_info with args=('USD',), kwargs={}
+2026-01-14 17:29:07 - valutatrade - ERROR - Error in get_portfolio_info after 0.000s: AuthenticationError: Сначала выполните вход в систему
+2026-01-14 17:41:18 - valutatrade - INFO - Starting login with args=('test3', 'pass123'), kwargs={}
+2026-01-14 17:41:18 - valutatrade - INFO - Completed login in 0.000s
